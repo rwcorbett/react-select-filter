@@ -1,0 +1,22 @@
+@import "./vars.scss";
+@import "./mixins.scss";
+
+@import "./search-box.scss";
+@import "./categories.scss";
+
+body {
+    background-color: var(--grey-background);
+    color: var(--text);
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; 
+    min-height: 0vw;
+
+    header {
+        background-color: var(--blue);
+        text-align: center;
+        
+        h1 {
+            @include responsiveSize(2rem);
+            font-variant: small-caps; 
+        }
+    }
+}

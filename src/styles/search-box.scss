@@ -1,0 +1,26 @@
+.search-box {
+    background-color: var(--blue-light);
+    padding: var(--app-padding);
+
+    input[type="text"] {
+        color: var(--grey-dark);
+        margin-left: var(--app-padding);
+        padding: 0 0.2rem;
+    }
+
+    .search-query-string {
+        position: relative;
+
+        i {
+            color: var(--brown);
+        }
+
+        .search-no-result {
+            color: var(--red);
+            font-weight: 800;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+}

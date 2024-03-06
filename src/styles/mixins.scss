@@ -1,0 +1,3 @@
+@mixin responsiveSize($base: "1rem") {
+    font-size: calc($base + ((1vw - 0.48rem) * 0.6944));
+}
